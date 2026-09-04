@@ -1,5 +1,6 @@
 ﻿# Secrets
 .env
+.env.*
 *.pem
 *.key
 secrets.json
@@ -14,3 +15,7 @@ appsettings.Development.json
 bin/
 obj/
 node_modules/
+.next/
+.vercel/
+*.log
+.DS_Store
