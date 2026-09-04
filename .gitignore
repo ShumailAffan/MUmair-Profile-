@@ -1,19 +1,16 @@
-node_modules/
-.next/
-out/
-build/
+﻿# Secrets
 .env
-.env.*
-!.env.example
-.npmrc
-.vercel/
-*.tsbuildinfo
 *.pem
 *.key
-*.crt
-*.p12
-*.log
-.vscode/
-.idea/
-coverage/
-.DS_Store
+secrets.json
+appsettings.Development.json
+
+# VS Junk
+.vs/
+[Dd]ebug/
+[Rr]elease/
+*.user
+*.suo
+bin/
+obj/
+node_modules/
